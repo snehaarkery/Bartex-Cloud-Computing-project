@@ -1,0 +1,21 @@
+branch-defaults:
+  master:
+    environment: bartexenv
+    group_suffix: null
+environment-defaults:
+  bartexenv:
+    branch: master
+    repository: Bartex_0.1_repo
+global:
+  application_name: Bartex
+  branch: master
+  default_ec2_keyname: AWS@cloud1
+  default_platform: Python 2.7
+  default_region: us-west-2
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: Bartex_0.1_repo
+  sc: git
+  workspace_type: Application
